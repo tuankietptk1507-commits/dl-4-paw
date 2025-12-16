@@ -1617,9 +1617,6 @@ body {
                         max-width: calc((100% - 6px)/2);
                         width: 100%;
                         gap: 5px;
-
-                        img {}
-
                         .our--2--letter {
                             display: flex;
                             flex-direction: column;
@@ -1882,19 +1879,19 @@ body {
 
                                 h5 {
                                     font-size: 13.1px;
-                                    height: 20px;
+                                   line-height: normal;
 
                                 }
 
                                 p {
                                     font-size: 10.48px;
-                                    height: 16px;
+                                    line-height: normal;
                                 }
                             }
 
                             p {
                                 font-size: 10.48px;
-                                height: 16px;
+                                line-height: normal;
                             }
                         }
                     }
