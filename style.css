@@ -1,0 +1,2027 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Formative Trial';
+    src: url('./acc/Formative Font Family/FormativeTrial-Regular-BF656fed9028715.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    .section--hero {
+        width: 100%;
+
+        .section--hero--box {
+            width: 100%;
+            max-width: 1440px;
+            margin: auto;
+            box-shadow: inset 0 0px 900px rgba(0, 0, 0, 1);
+            background-image: url("./acc/img/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba\ \(7\).png");
+
+            header {
+                max-width: 1440px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                padding: 18px;
+
+                .head--box {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    max-width: 1280px;
+                    width: 100%;
+                    padding-inline: 32px;
+
+                    .head--logo {
+                        display: flex;
+                        align-items: center;
+                        gap: 50px;
+
+                        .head--shop {
+                            display: flex;
+                            gap: 32px;
+                            align-items: center;
+
+                            a {
+                                font-family: 'Formative Trial';
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: 0%;
+                                color: #FFFFFFCC;
+                                text-decoration: none;
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                            }
+                        }
+
+                    }
+
+                    .ci {
+                        display: none;
+                    }
+
+                    button {
+                        width: 124px;
+                        height: 44px;
+                        padding-top: 10px;
+                        padding-right: 18px;
+                        padding-bottom: 10px;
+                        padding-left: 18px;
+                        border-radius: 50px;
+                        font-family: 'Formative Trial';
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #101828;
+                        background-color: #ffffff;
+                        border: none;
+                    }
+                }
+            }
+
+            .section--1 {
+                max-width: 1440px;
+                width: 100%;
+                margin: auto;
+                padding: 161px 0px 252px 81px;
+
+                .section--1--box {
+                    max-width: 630px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+
+                    .letter--1 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        h1 {
+                            font-family: 'Formative Trial';
+                            font-weight: 400;
+                            font-size: 60px;
+                            line-height: 100%;
+                            letter-spacing: 2%;
+                            color: #ffffff;
+                        }
+
+                        p {
+                            font-family: 'Formative Trial';
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #ffffff;
+
+                        }
+
+                    }
+
+                    button {
+                        width: 187px;
+                        height: 64px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 12px;
+                        border-radius: 50px;
+                        background-color: #6941C600;
+                        border: 1px solid #ffffff;
+                        font-family: 'Formative Trial';
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 0%;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+
+    .shop {
+        padding-inline: 20px;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 140px;
+
+        .shop--box {
+            margin: auto;
+            max-width: 1280px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .shop--letter {
+                padding-top: 17px;
+                padding-bottom: 16px;
+                border-bottom: 0.2px solid #000000;
+                width: 100%;
+
+                .ve--22 {
+                    display: none;
+                }
+
+                h1 {
+                    font-family: 'Formative Trial';
+                    font-weight: 500;
+                    font-size: 35px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #101828;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                }
+            }
+
+            .shop--content {
+                max-width: 1201px;
+                width: 100%;
+                border: 0.2px solid #000000;
+                padding: 40px 21px;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                margin: auto;
+
+                .shop--content--1 {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h3 {
+                        font-family: 'Formative Trial';
+                        font-weight: 600;
+                        font-size: 35px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #000;
+                    }
+
+                    .shop--search {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        width: 281px;
+                        height: 50px;
+                        border-radius: 50px;
+                        background-color: #F4F4F4;
+                        padding: 13px 11px;
+
+                        input {
+                            border: none;
+                            background-color: #F4F4F4;
+                            font-family: Formative Trial;
+                            font-size: 17px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: #10182861;
+
+                        }
+
+                    }
+                }
+
+                .shop--content--2 {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin: auto;
+
+                    button {
+                        width: 74px;
+                        height: 40px;
+                        padding-top: 10px;
+                        padding-right: 20px;
+                        padding-bottom: 10px;
+                        padding-left: 20px;
+                        font-family: 'Formative Trial';
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #000000B2;
+                        background-color: #ffffff;
+                        border: none;
+
+
+                    }
+
+                    button:nth-of-type(1) {
+                        width: 126px;
+                        height: 50px;
+                        padding-top: 15px;
+                        padding-right: 25px;
+                        padding-bottom: 15px;
+                        padding-left: 25px;
+                        border-radius: 8px;
+                        background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+                        border: 1px solid;
+                        box-shadow: 5px 4px 10.9px 0px #0000001A;
+                        font-family: Formative Trial;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #ffffff;
+                    }
+                }
+
+                .shop--content--3 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 36px;
+
+                    .card--shop {
+                        display: flex;
+                        gap: 17px;
+
+                        img {
+                            width: 100%;
+                            max-width: calc((100% - 34px)/3);
+                        }
+                    }
+
+                    p {
+                        font-family: 'Formative Trial';
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #101828;
+                        text-align: right;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .section--services {
+        padding-inline: 20px;
+        width: 100%;
+        margin-bottom: 140px;
+
+        .services--box {
+            margin: auto;
+            max-width: 1280px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .services--1 {
+                padding-top: 17px;
+                padding-bottom: 16px;
+                border-bottom: 0.2px solid #000000;
+                width: 100%;
+
+                h1 {
+                    font-family: 'Formative Trial';
+                    font-weight: 500;
+                    font-size: 35px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #101828;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                }
+            }
+
+            .section--2 {
+                max-width: 1201px;
+                width: 100%;
+                border: 0.2px solid #000000;
+                padding: 27px 30px;
+                display: flex;
+                gap: 15px;
+
+                .section--img {
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 717px;
+                    width: 100%;
+                    gap: 15px;
+
+                    img {
+                        width: 100%;
+                        max-width: calc((100% - 15px)/2);
+                    }
+                }
+
+                .cho {
+                    max-width: 409px;
+                    width: 100%;
+                }
+
+                .choo--1 {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .section--about {
+        padding-inline: 20px;
+        width: 100%;
+        margin-bottom: 140px;
+
+        .about--box {
+            margin: auto;
+            max-width: 1280px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .about--1 {
+                padding-top: 17px;
+                padding-bottom: 16px;
+                border-bottom: 0.2px solid #000000;
+                width: 100%;
+
+                h1 {
+                    font-family: 'Formative Trial';
+                    font-weight: 500;
+                    font-size: 35px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #101828;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                }
+            }
+
+            .about--2 {
+                max-width: 1201px;
+                width: 100%;
+                border: 0.2px solid #000000;
+                padding: 58px 41px 58px 34px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                margin: auto;
+                gap: 4px;
+
+                p {
+                    font-family: 'Formative Trial';
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #667085;
+                    max-width: 570px;
+                    width: 100%;
+
+                }
+
+                img {
+                    max-width: 552px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .section--our {
+        padding-inline: 20px;
+        width: 100%;
+        margin-bottom: 140px;
+
+        .our--box {
+            margin: auto;
+            max-width: 1280px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+
+            .our--1 {
+                padding-top: 17px;
+                padding-bottom: 16px;
+                border-bottom: 0.2px solid #000000;
+                width: 100%;
+
+                h1 {
+                    font-family: 'Formative Trial';
+                    font-weight: 500;
+                    font-size: 35px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #101828;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                }
+            }
+
+            .our--2 {
+                max-width: 1280px;
+                width: 100%;
+                padding-inline: 32px;
+                display: flex;
+                gap: 32px;
+
+                .our--2--box {
+                    max-width: 280px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+
+                    img {
+                        max-width: 280px;
+                        width: 100%;
+                    }
+
+                    .our--2--letter {
+                        h5 {
+                            font-family: 'Formative Trial';
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 30px;
+                            letter-spacing: 0%;
+                            color: #101828;
+                        }
+
+                        p {
+                            margin-top: 4px;
+                            margin-bottom: 24px;
+                            font-family: 'Formative Trial';
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 28px;
+                            letter-spacing: 0%;
+                            color: #10182880;
+                        }
+
+                        .our--2--icon {
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+
+                            img {
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section--blog {
+        padding-inline: 20px;
+        width: 100%;
+        margin-bottom: 70px;
+
+        .blog--box {
+            margin: auto;
+            max-width: 1280px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+
+            .blog--1 {
+                padding-top: 17px;
+                padding-bottom: 16px;
+                border-bottom: 0.2px solid #000000;
+                width: 100%;
+
+                h1 {
+                    font-family: 'Formative Trial';
+                    font-weight: 500;
+                    font-size: 35px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #101828;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                }
+            }
+
+            .blog--2 {
+                max-width: 1280px;
+                width: 100%;
+                display: flex;
+                gap: 64px;
+
+                .blog--content {
+                    max-width: 608px;
+                    width: 100%;
+
+                    h2 {
+                        font-family: 'Formative Trial';
+                        font-weight: 600;
+                        font-size: 36px;
+                        line-height: 44px;
+                        letter-spacing: -2%;
+                        color: #101828;
+                    }
+
+                    hr {
+                        max-width: 608px;
+                        width: 100%;
+                        height: 1px;
+                        color: #EAECF0;
+                        margin-top: 48px;
+                        margin-bottom: 32px;
+                    }
+
+                    p {
+                        font-family: 'Formative Trial';
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 0%;
+                        color: #667085;
+
+                    }
+
+                    .blog--re {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        margin-top: 32px;
+                        margin-bottom: 48px;
+
+                        h5 {
+                            font-family: 'Formative Trial';
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 32px;
+                            letter-spacing: 0%;
+                            color: #101828;
+                        }
+
+                        p {
+                            font-family: 'Formative Trial';
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 28px;
+                            letter-spacing: 0%;
+                            color: #667085;
+                        }
+
+                    }
+
+                    button {
+                        width: 149px;
+                        height: 60px;
+                        padding-top: 20px;
+                        padding-right: 20px;
+                        padding-bottom: 20px;
+                        padding-left: 20px;
+                        border-radius: 8px;
+                        background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+                        border: 1px solid;
+                        border-image-source: linear-gradient(88.9deg, #243961 -2.52%, #101828 99.06%);
+                        font-family: 'Formative Trial';
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: #ffffff;
+                    }
+                }
+
+                img {
+                    max-width: 608px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .section--get {
+        padding-inline: 20px;
+        width: 100%;
+        padding-top: 70px;
+        background-color: #101828;
+
+        .get--box {
+            margin: auto;
+            max-width: 1280px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+
+
+            .get--1 {
+                padding-top: 17px;
+                padding-bottom: 16px;
+                border-bottom: 0.2px solid #FFFFFF;
+                width: 100%;
+
+                h1 {
+                    font-family: 'Formative Trial';
+                    font-weight: 500;
+                    font-size: 35px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #101828;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .get--2 {
+                max-width: 1280px;
+                width: 100%;
+                display: flex;
+                gap: 64px;
+                padding-inline: 32px;
+                align-items: center;
+                padding-bottom: 70px;
+
+                .get--2--left {
+                    max-width: 576px;
+                    width: 100%;
+                    background-color: #ffffff;
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 40px;
+                    padding-right: 48px;
+                    padding-bottom: 40px;
+                    padding-left: 48px;
+                    border-radius: 16px;
+
+                    .box--name {
+                        max-width: 480px;
+                        width: 100%;
+                        display: flex;
+                        gap: 32px;
+                        margin-bottom: 24px;
+
+
+                        .name {
+                            max-width: 224px;
+                            display: flex;
+                            flex-direction: column;
+                            height: 74px;
+                            justify-content: space-between;
+
+                            p {
+                                font-family: 'Formative Trial';
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: 0%;
+                                color: #344054;
+                            }
+
+                            input {
+                                width: 100%;
+                                height: 48px;
+                                padding-top: 12px;
+                                padding-right: 16px;
+                                padding-bottom: 12px;
+                                padding-left: 16px;
+                                border-radius: 8px;
+                                border: 1px solid #D0D5DD;
+                                font-family: 'Formative Trial';
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: 0%;
+                                color: #667085;
+                            }
+                        }
+
+                    }
+
+                    .ema {
+                        max-width: 480px;
+                        width: 100%;
+                        display: flex;
+                        height: 74px;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-bottom: 24px;
+
+                        p {
+                            font-family: 'Formative Trial';
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: 0%;
+                            color: #344054;
+                        }
+
+                        input {
+                            width: 100%;
+                            height: 48px;
+                            padding-top: 12px;
+                            padding-right: 16px;
+                            padding-bottom: 12px;
+                            padding-left: 16px;
+                            border-radius: 8px;
+                            border: 1px solid #D0D5DD;
+                            font-family: 'Formative Trial';
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #667085;
+                        }
+
+                    }
+
+                    .me {
+                        max-width: 480px;
+                        width: 100%;
+                        display: flex;
+                        height: 154px;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-bottom: 24px;
+
+                        p {
+                            font-family: 'Formative Trial';
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: 0%;
+                            color: #344054;
+                        }
+
+                        .cn {
+                            width: 100%;
+                            height: 128px;
+                            border: 1px solid #D0D5DD;
+                            border-radius: 8px;
+                        }
+
+
+                    }
+
+                    .you {
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+                        margin-bottom: 32px;
+
+                        .vu {
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 6px;
+                            border: 1px solid #D0D5DD;
+                        }
+
+                        p {
+                            font-family: 'Inter';
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #667085;
+
+                        }
+                    }
+
+                    button {
+                        max-width: 480px;
+                        width: 100%;
+                        height: 64px;
+                        padding-top: 20px;
+                        padding-right: 25px;
+                        padding-bottom: 20px;
+                        padding-left: 25px;
+                        border-radius: 8px;
+                        background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+                        border: 1px solid;
+                        border-image-source: linear-gradient(88.9deg, #243961 -2.52%, #101828 99.06%);
+                        font-family: 'Formative Trial';
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #ffffff;
+                    }
+                }
+
+                .get--2--right {
+                    display: flex;
+                    flex-wrap: wrap;
+                    row-gap: 48px;
+                    column-gap: 32px;
+                    max-width: 576px;
+                    width: 100%;
+
+                    .get--2--box {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        max-width: calc((100% - 32px)/2);
+                        width: 100%;
+
+                        img {
+                            width: 24px;
+                            height: 24px;
+                        }
+
+                        .tr {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+
+                            h5 {
+                                font-family: 'Formative Trial';
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 30px;
+                                letter-spacing: 0%;
+                                color: #ffffff;
+                            }
+
+                            p {
+                                font-family: 'Formative Trial';
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: 0%;
+                                color: #CECECE;
+                            }
+                        }
+
+                        p {
+                            font-family: 'Inter';
+                            font-weight: 600;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #ffffff;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section--join {
+        padding-inline: 20px;
+        padding: 48px 80px;
+        background-color: #101828;
+        border-top: 0.5px solid #CECECE;
+        width: 100%;
+
+        .join--box {
+            max-width: 1280px;
+            width: 100%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-inline: 32px;
+            gap: 30px;
+
+            .join--1 {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                max-width: 773px;
+                width: 100%;
+
+                h5 {
+                    font-family: 'Formative Trial';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+                    color: #ffffff;
+                }
+
+                p {
+                    font-family: 'Formative Trial';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+                    color: #cecece;
+                }
+
+            }
+
+            .join--2 {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+
+                input {
+                    width: 280px;
+                    height: 44px;
+
+                    padding-top: 10px;
+                    padding-right: 14px;
+                    padding-bottom: 10px;
+                    padding-left: 14px;
+                    border-radius: 8px;
+                    border: 1px solid #D0D5DD;
+                    background-color: #DEDEDE;
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #667085;
+
+
+                }
+
+                button {
+                    width: 115px;
+                    height: 44px;
+
+                    padding-top: 10px;
+                    padding-right: 18px;
+                    padding-bottom: 10px;
+                    padding-left: 18px;
+                    border-radius: 8px;
+                    border: none;
+                    background-color: #ffffff;
+                    font-family: 'Inter';
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #344054;
+
+
+                }
+            }
+        }
+    }
+
+
+    footer {
+        padding-inline: 20px;
+        width: 100%;
+        background-color: #101828;
+        padding: 64px 80px 48px 80px;
+
+        .foot--box {
+            max-width: 1280px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+            margin: auto;
+
+            .foot--1 {
+                display: flex;
+                gap: 64px;
+                padding-left: 32px;
+
+                .foot--c {
+                    max-width: 320px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+
+                    h4 {
+                        font-family: 'Formative Trial';
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #ffffff;
+                        display: flex;
+                        align-items: center;
+                        gap: 11px;
+                    }
+
+                    p {
+                        font-family: 'Inter';
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #CECECE;
+                    }
+                }
+
+                .foot--p {
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 832px;
+                    width: 100%;
+                    row-gap: 30px;
+                    column-gap: 32px;
+                    min-width: 485px;
+
+
+                    .foot--item {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 12px;
+                        max-width: 140px;
+                        width: 100%;
+
+                        h5 {
+                            margin-bottom: 4px;
+                            font-family: 'Inter';
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: 0%;
+                            color: #ffffff;
+                        }
+
+                        p {
+                            font-family: 'Inter';
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #CECECE;
+                        }
+                    }
+
+                }
+
+            }
+
+            .foot--2 {
+                width: 100%;
+                height: 57px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                hr {
+                    max-width: 1216px;
+                    width: 100%;
+                    height: 1px;
+                    color: #CECECE80;
+                }
+
+                .foot--letter {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    max-width: 1216px;
+                    width: 100%;
+
+                    p {
+                        font-family: 'Inter';
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #CECECE;
+                    }
+
+                    .foot--icon {
+                        display: flex;
+                        align-items: center;
+                        gap: 24px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media (min-width:740px) and (max-width:1032px) {
+    body {
+        display: flex;
+        flex-direction: column;
+
+        .section--hero {
+            .section--hero--box {
+                background-image: url("./acc/img/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba\ \(8\)\ -\ Copy.png");
+
+                header {
+                    .head--box {
+                        .head--logo {
+                            .head--shop {
+                                display: none;
+
+                            }
+                        }
+
+                        .ci {
+                            display: block;
+                        }
+
+                        button {
+                            display: none;
+
+                        }
+                    }
+                }
+
+                .section--1 {
+                    padding: 110px 0px 260px 81px;
+
+                    .section--1--box {
+                        padding-right: 80px;
+                    }
+                }
+            }
+        }
+
+        .shop {
+            .shop--box {
+                .shop--content {
+                    border: none;
+                }
+            }
+        }
+
+        .section--services {
+            .services--box {
+                .section--2 {
+                    flex-direction: column;
+                    border: none;
+
+
+                    .section--img {
+                        width: 100%;
+                        max-width: 10000px;
+
+
+                        img {
+                            max-width: calc((100% - 15px)/2);
+
+                        }
+                    }
+
+                    .cho {
+                        display: none;
+
+                    }
+
+                    .choo--1 {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .section--about {
+            margin-bottom: 70px;
+
+
+            .about--box {
+                .about--2 {
+                    border: none;
+                    padding: 20px 20px;
+
+
+                    p {
+                        max-width: 10000px;
+                    }
+
+                    img {
+                        display: none;
+
+                    }
+                }
+            }
+        }
+
+        .section--our {
+            order: 2;
+
+
+            .our--box {
+                .our--2 {
+                    flex-wrap: wrap;
+                    max-width: 656px;
+                    width: 100%;
+                    margin: auto;
+                }
+            }
+        }
+
+        .section--blog {
+            order: 1;
+
+            .blog--box {
+                .blog--2 {
+                    .blog--content {
+                        max-width: 10000px;
+
+                        hr {
+                            max-width: 10000px;
+
+                        }
+                    }
+
+                    img {
+                        display: none;
+
+                    }
+                }
+            }
+        }
+
+        .section--get {
+            order: 3;
+
+            .get--box {
+                .get--2 {
+                    display: flex;
+                    flex-direction: column;
+
+
+                    .get--2--left {
+                        order: 2;
+                    }
+
+                    .get--2--right {
+                        order: 1;
+                    }
+                }
+            }
+        }
+
+        .section--join {
+            order: 4;
+
+
+            .join--box {
+                .join--2 {
+                    input {
+                        width: 150px;
+                    }
+                }
+            }
+        }
+
+        footer {
+            padding-right: 80px;
+            order: 5;
+
+            .foot--box {
+
+                .foot--1 {
+                    flex-direction: column;
+
+
+                    .foot--p {
+                        min-width: 0;
+                        max-width: 500px;
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:739px) {
+    body {
+        display: flex;
+        flex-direction: column;
+
+        .section--hero {
+            .section--hero--box {
+                background-image: url("./acc/img/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba\ \(9\).png");
+
+                header {
+                    width: 100%;
+                    height: 60px;
+                    padding: 28px 0px 0px 0px;
+
+                    .head--box {
+                        padding-inline: 18px;
+
+                        .head--logo {
+
+                            .head--shop {
+                                display: none;
+
+                            }
+                        }
+
+                        .ci {
+                            display: block;
+                        }
+
+                        button {
+                            display: none;
+
+                        }
+                    }
+                }
+
+                .section--1 {
+                    padding: 112px 50px 81px 27px;
+
+                    .section--1--box {
+                        .letter--1 {
+
+                            h1 {
+                                font-size: 30px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                            }
+
+                        }
+
+                        button {
+                            width: 167px;
+                            height: 60px;
+                            padding-top: 16px;
+                            padding-right: 20px;
+                            padding-bottom: 16px;
+                            padding-left: 20px;
+                            font-family: Formative Trial;
+                            font-size: 16px;
+                            gap: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .shop {
+            margin-top: 40px;
+            margin-bottom: 40px;
+
+            .shop--box {
+                gap: 20px;
+
+
+                .shop--letter {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 2px 0px 12px 0px;
+
+                    h1 {
+                        font-size: 20px;
+                    }
+
+                    .ve--22 {
+                        display: block;
+                    }
+                }
+
+                .shop--content {
+                    padding: 0;
+                    gap: 20px;
+                    border: none;
+
+
+                    .shop--content--1 {
+
+                        h3 {
+                            font-size: 15px;
+                            font-weight: 500;
+                        }
+
+                        .shop--search {
+                            display: none;
+                        }
+                    }
+
+                    .shop--content--2 {
+
+
+                        button {
+                            font-size: 15px;
+                            width: 46px;
+                            height: 25px;
+                            padding-top: 5px;
+                            padding-right: 10px;
+                            padding-bottom: 5px;
+                            padding-left: 10px;
+
+                        }
+
+                        button:nth-of-type(1) {
+                            font-size: 15px;
+                            padding: 10px 16px;
+                            width: 89px;
+                            height: 35px;
+                            border-radius: 8px;
+
+                        }
+                    }
+
+                    .shop--content--3 {
+
+                        .card--shop {
+                            flex-direction: column;
+
+                            img {
+                                max-width: 450px;
+                                width: 100%;
+                                margin: auto;
+                            }
+                        }
+
+                        p {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section--services {
+            padding: 40px 16px;
+            margin-bottom: 0;
+
+
+            .services--box {
+                gap: 20px;
+
+
+                .services--1 {
+                    height: 34px;
+                    padding: 0 0 10px 0;
+
+                    h1 {
+                        font-size: 20px;
+                        gap: 15px;
+                        height: 20px;
+                    }
+                }
+
+                .section--2 {
+                    border: none;
+                    flex-direction: column;
+                    padding: 0;
+                    gap: 6px;
+
+
+                    .section--img {
+                        width: 100%;
+                        max-width: 10000px;
+                        gap: 7px;
+
+
+                        img {
+                            max-width: calc((100% - 15px)/2);
+
+                        }
+                    }
+
+                    .cho {
+                        display: none;
+
+                    }
+
+                    .choo--1 {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .section--about {
+            padding: 40px 16px;
+            margin-bottom: 0;
+
+
+            .about--box {
+                gap: 20px;
+
+
+                .about--1 {
+                    height: 34px;
+                    padding: 0 0 10px 0;
+
+
+                    h1 {
+                        font-size: 20px;
+                        gap: 15px;
+                        height: 20px;
+                    }
+                }
+
+                .about--2 {
+                    border: none;
+                    padding: 0;
+
+
+                    p {
+                        max-width: 10000px;
+                        font-size: 15px;
+                    }
+
+                    img {
+                        display: none;
+
+                    }
+                }
+            }
+        }
+
+        .section--our {
+            order: 2;
+            padding: 40px 16px;
+            margin: 0;
+
+            .our--box {
+                gap: 20px;
+
+
+                .our--1 {
+                    height: 34px;
+                    padding: 0 0 10px 0;
+
+
+                    h1 {
+                        font-size: 20px;
+                        gap: 15px;
+                        height: 20px;
+                    }
+                }
+
+                .our--2 {
+                    flex-wrap: wrap;
+                    margin: auto;
+                    padding-inline: 0px;
+                    row-gap: 6.4px;
+                    column-gap: 6px;
+                    max-width: 566px;
+                    width: 100%;
+
+                    .our--2--box {
+                        max-width: calc((100% - 6px)/2);
+                        width: 100%;
+                        gap: 5px;
+
+                        img {}
+
+                        .our--2--letter {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            h5 {
+                                font-size: 12.54px;
+                                height: 19px;
+                                text-align: center;
+                            }
+
+                            p {
+                                margin-top: 2.51px;
+                                margin-bottom: 6.27px;
+                                font-size: 11.29px;
+                                height: 18px;
+                                text-align: center;
+                            }
+
+                            .our--2--icon {
+                                text-align: center;
+
+                                img {
+                                    width: 15.5px;
+                                    height: 15.5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .section--blog {
+            order: 1;
+            padding: 40px 16px;
+            margin-bottom: 0;
+
+            .blog--box {
+                gap: 20px;
+
+
+                .blog--1 {
+                    height: 34px;
+                    padding: 0 0 10px 0;
+
+
+                    h1 {
+                        font-size: 20px;
+                        gap: 15px;
+                        height: 20px;
+                    }
+                }
+
+                .blog--2 {
+                    .blog--content {
+                        max-width: 10000px;
+
+
+                        h2 {
+                            font-size: 20px;
+                        }
+
+                        hr {
+                            max-width: 10000px;
+                            margin-bottom: 10px;
+                            margin-top: 15px;
+
+                        }
+
+                        p {
+                            font-size: 15px;
+                        }
+
+                        .blog--re {
+                            margin-top: 20px;
+                            margin-bottom: 15px;
+                            gap: 10px;
+
+
+                            h5 {
+                                font-size: 20px;
+                            }
+
+                            p {
+                                font-size: 15px;
+                            }
+
+                        }
+
+                        button {
+                            width: 104px;
+                            height: 35px;
+                            padding-top: 10px;
+                            padding-right: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 10px;
+                            border-radius: 5px;
+                            font-size: 15px;
+
+                        }
+                    }
+
+                    img {
+                        display: none;
+
+                    }
+                }
+            }
+        }
+
+        .section--get {
+            order: 3;
+            padding: 40px 16px;
+
+
+            .get--box {
+
+
+                .get--1 {
+                    height: 34px;
+                    padding: 0 0 10px 0;
+
+
+                    h1 {
+                        font-size: 20px;
+                        gap: 15px;
+                        height: 20px;
+                    }
+                }
+
+                .get--2 {
+                    display: flex;
+                    flex-direction: column;
+                    padding-bottom: 0;
+                    padding: 0;
+                    gap: 41.93px;
+
+
+                    .get--2--left {
+                        order: 2;
+                        padding: 26.2px 20.96px;
+                        border-radius: 10.48px;
+                        max-width: 521.92px;
+                        width: 100%;
+                        margin: auto;
+
+                        .box--name {
+                            gap: 20.96px;
+                            margin-bottom: 15.72px;
+
+                            .name {
+                                gap: 3.93px;
+                                height: 49.65px;
+                                max-width: calc((100% - 20.96px) /2);
+                                width: 100%;
+
+                                p {
+                                    font-size: 9.17px;
+                                }
+
+                                input {
+
+                                    font-size: 10.48px;
+                                    height: 31.72px;
+                                    border-radius: 5.24px;
+                                }
+                            }
+
+                        }
+
+                        .ema {
+                            gap: 3.93px;
+                            height: 49.65px;
+                            margin-bottom: 15.72px;
+
+
+                            p {
+                                font-size: 9.17px;
+                            }
+
+                            input {
+                                font-size: 10.48px;
+                                height: 31.72px;
+                                border-radius: 5.24px;
+                            }
+
+                        }
+
+                        .me {
+                            height: 100.98px;
+                            gap: 3.93px;
+                            margin-bottom: 15.72px;
+
+
+                            p {
+                                font-size: 9.17px;
+                            }
+
+                            .cn {
+                                height: 82.95px;
+                                border-radius: 5.24px;
+                            }
+
+
+                        }
+
+                        .you {
+                            gap: 7.86px;
+                            margin-bottom: 20.96px;
+
+
+                            .vu {
+                                width: 13.1px;
+                                height: 13.1px;
+                                border-radius: 3.93px;
+
+                            }
+
+                            p {
+                                font-size: 10.48px;
+                            }
+                        }
+
+                        button {
+                            height: 42.2px;
+                            padding-top: 8px;
+                            padding-right: 16.38px;
+                            padding-bottom: 10px;
+                            padding-left: 16.38px;
+                            border-radius: 5.24px;
+                            font-size: 10.48px;
+
+                        }
+                    }
+
+                    .get--2--right {
+                        order: 1;
+                        row-gap: 31.45px;
+                        column-gap: 5px;
+                        justify-content: space-between;
+                        max-width: 356.38px;
+                        width: 100%;
+
+
+                        .get--2--box {
+                            max-width: calc((100% - 20.96px)/2);
+                            width: 100%;
+                            gap: 10.48px;
+
+                            img {
+                                width: 15.72px;
+                                height: 15.72px;
+                            }
+
+                            .tr {
+                                gap: 5.24px;
+
+
+
+                                h5 {
+                                    font-size: 13.1px;
+                                    height: 20px;
+
+                                }
+
+                                p {
+                                    font-size: 10.48px;
+                                    height: 16px;
+                                }
+                            }
+
+                            p {
+                                font-size: 10.48px;
+                                height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .section--join {
+            order: 4;
+            padding: 40px 14.5px;
+
+            .join--box {
+                padding: 0;
+                flex-direction: column;
+                gap: 32px;
+
+
+                .join--1 {
+                    gap: 0;
+
+
+                    h5 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                    }
+
+                }
+
+                .join--2 {
+                    max-width: 1000px;
+                    width: 100%;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    input {
+                        max-width: 358px;
+                        width: 100%;
+                        height: 39.665px;
+                        padding-top: 8.83px;
+                        padding-right: 12.36px;
+                        padding-bottom: 8.83px;
+                        padding-left: 12.36px;
+                        border-radius: 7.07px;
+                        font-size: 14.13px;
+                    }
+
+                    button {
+                        max-width: 358px;
+                        width: 100%;
+                        height: 39.66px;
+                        padding-top: 8.83px;
+                        padding-right: 124.9px;
+                        padding-bottom: 8.83px;
+                        padding-left: 124.9px;
+                        border-radius: 7.07px;
+                        font-size: 14.13px;
+                    }
+                }
+            }
+        }
+
+        footer {
+            padding: 40px 15.5px 64px 15.5px;
+            order: 5;
+
+            .foot--box {
+                gap: 40px;
+
+
+
+                .foot--1 {
+                    flex-direction: column;
+                    padding: 0;
+                    gap: 30px;
+
+                    .foot--c {
+
+                        h4 {
+                            font-size: 20px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .foot--p {
+                        min-width: 0;
+                        max-width: 10000px;
+                        row-gap: 30px;
+                        column-gap: 45px;
+
+                        .foot--item {
+                            gap: 12px;
+
+
+                            h5 {
+                                margin-bottom: 4px;
+                                font-size: 14px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+
+                    }
+
+                }
+
+                .foot--2 {
+                    gap: 20px;
+
+
+                
+                    .foot--letter {
+                        flex-direction: column;
+                        gap: 10px;
+
+                   
+                    }
+                }
+            }
+        }
+    }
+}
